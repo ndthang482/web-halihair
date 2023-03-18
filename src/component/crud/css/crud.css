@@ -1,0 +1,20 @@
+.table-container {
+    display: flex; /* Sử dụng flexbox để căn giữa */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-bottom: 20px; /* Khoảng cách giữa bảng và các phần tử khác */
+    margin-left: 300px;
+    margin-right: 8px;
+  }
+  
+  table {
+    border-collapse: collapse; /* Gộp các đường viền bảng */
+    width: 100%; /* Đảm bảo bảng chiếm đủ chiều rộng của phần tử cha */
+  }
+  
+  td, th {
+    border: 1px solid #ddd; /* Đường viền cho các ô */
+    padding: 8px; /* Khoảng cách giữa nội dung ô và đường viền */
+    text-align: left; /* Căn trái cho nội dung ô */
+  }
+  
