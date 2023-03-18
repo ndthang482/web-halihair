@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: product
+  jpa:
+    databasePlatform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddlAuto: update
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/halihair?autoReconnect=true&allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: admin123
